@@ -29,7 +29,8 @@ SORAI {
     Sanic_speed
     int n; cin >> n;
     ll dp[1000002];
-    dp[0] = dp[1] = 1;
+    dp[0] = 0;
+    dp[1] = 1;
     dp[2] = 2;
     dp[3] = 4;
     dp[4] = dp[1] + dp[2] + dp[3] + 1;
