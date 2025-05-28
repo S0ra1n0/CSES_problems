@@ -53,18 +53,6 @@ void solve() {
  
 SORAI {
     Sanic_speed
-    /*
-    int n, k;
-    ll ans = 0;
-    cin >> n >> k;
-    int a[n], dp[n+1];
-    frs(i, 0, n) {dp[i] = 0; cin >> a[i];}
-    dp[n] = 0;
-    frs(i, 0, n) {
-        
-    }
-    cout << (ans%M);
-    */
     int t;
     cin >> t;
     wh(t) {solve();}
